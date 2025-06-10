@@ -1,0 +1,30 @@
+"""
+🎯 INSTRUCTIONS FOR LEETCODE SUBMISSION:
+
+1. Go to LeetCode "Add Two Numbers" problem
+2. You will see this pre-filled code:
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        
+
+3. REPLACE the entire Solution class with the code from COPY_THIS_TO_LEETCODE.py
+4. DO NOT touch the ListNode definition (it's commented out anyway)
+5. Submit!
+
+❌ COMMON MISTAKES TO AVOID:
+- Don't include your own ListNode class
+- Don't include any imports 
+- Don't include test code
+- Only paste the Solution class
+
+✅ WHAT LEETCODE PROVIDES FOR YOU:
+- ListNode class definition
+- Test framework
+- Input/output handling
+"""
