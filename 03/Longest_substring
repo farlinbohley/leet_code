@@ -1,0 +1,26 @@
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        char_map = {}
+        max_length = 0
+        start = 0
+
+        for end, char in enumerate(s):
+            if char in char_map and char_map[char] >= start:
+                start = char_map[char] + 1
+            char_map[char] = end
+            current_length = end - start + 1
+            max_length = max(max_length, current_length)
+        return max_length
+            
+        
+    
+def test():
+    sol = Solution()
+    print(sol.lengthOfLongestSubstring("abcabcbb"))  # Expected: 3
+    print(sol.lengthOfLongestSubstring("bbbbb"))     # Expected: 1
+    print(sol.lengthOfLongestSubstring("pwwkew"))    # Expected: 3
+    print(sol.lengthOfLongestSubstring("abba"))          # Expected: 0
+
+if __name__ == "__main__":
+    test()
+
