@@ -1,5 +1,4 @@
 #include <vector>
-s
 using std::vector;
 
 class Solution {
