@@ -1,0 +1,5 @@
+/Users/Chris/leet_code/build/CMakeFiles/compress.dir
+/Users/Chris/leet_code/build/CMakeFiles/isSubsequence.dir
+/Users/Chris/leet_code/build/CMakeFiles/moveZeroes.dir
+/Users/Chris/leet_code/build/CMakeFiles/edit_cache.dir
+/Users/Chris/leet_code/build/CMakeFiles/rebuild_cache.dir

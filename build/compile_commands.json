@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -Wall -Wextra -g -o CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o -c /Users/Chris/leet_code/Leetcode_75/compress.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/compress.cpp",
+  "output": "CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -Wall -Wextra -g -o CMakeFiles/isSubsequence.dir/Leetcode_75/isSubsequence.cpp.o -c /Users/Chris/leet_code/Leetcode_75/isSubsequence.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/isSubsequence.cpp",
+  "output": "CMakeFiles/isSubsequence.dir/Leetcode_75/isSubsequence.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -Wall -Wextra -g -o CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o -c /Users/Chris/leet_code/Leetcode_75/moveZeroes.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/moveZeroes.cpp",
+  "output": "CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o"
+}
+]
