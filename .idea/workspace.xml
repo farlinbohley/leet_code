@@ -3,9 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -22,77 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329b7961-d62c-4238-98b5-185f1e0e397a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/Untitled-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/compress.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/compress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/findMaxAverage.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/increasingTriplet_demo.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/isSubsequence.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/maxArea.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/maxOperations.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/maxOperations_two_pointers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/moveZeroes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/compress" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/compress.dSYM/Contents/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/compress.dSYM/Contents/Resources/DWARF/compress" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/compress.dSYM/Contents/Resources/Relocations/aarch64/compress.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/isSubsequence" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/isSubsequence.dSYM/Contents/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/isSubsequence.dSYM/Contents/Resources/DWARF/isSubsequence" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_75/output/isSubsequence.dSYM/Contents/Resources/Relocations/aarch64/isSubsequence.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learingclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/01/algorithm_overview/sliding_window_explained.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sytax_overview/cpp_syntax_for_python_devs.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_sums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_sums_double_loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leet_code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leet_code2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/import_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/import_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/learingclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/learingclass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/run_two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/run_two_sums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/test_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/test_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/two_sums" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/two_sums" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/two_sums.c" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/two_sums.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/two_sums.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/two_sums.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/two_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/two_sums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/two_sums_c" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/two_sums_c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/two_sums_double_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/01/two_sums_double_loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/COPY_THIS_TO_LEETCODE.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/COPY_THIS_TO_LEETCODE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/LEETCODE_INSTRUCTIONS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/LEETCODE_INSTRUCTIONS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/add_two_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/add_two_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/complete_init_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/complete_init_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/debug_your_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/debug_your_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/error_explanation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/error_explanation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/final_leetcode_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/final_leetcode_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/init_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/init_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/leetcode_correct_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/leetcode_correct_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/leetcode_ready_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/leetcode_ready_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/leetcode_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/leetcode_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/real_problem_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/real_problem_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/simple_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/simple_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/test_add_two_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/test_add_two_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/test_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/test_complete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/test_your_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/test_your_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02/your_algorithm_fixed.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/02/your_algorithm_fixed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03/Longest_substring" beforeDir="false" afterPath="$PROJECT_DIR$/problems/03/Longest_substring" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04/findMedianSortedArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/04/findMedianSortedArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/longestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/05/longestPalindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/simple_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/05/simple_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/test_longestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/05/test_longestPalindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/05/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1768/mergeAlternately.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1768/mergeAlternately.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1768/optimized.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1768/optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_75/largestAltitude.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_75/longestSubarray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_75/pivotIndex_0(n^2).cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +42,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -111,47 +52,65 @@
     <option name="minorVersion" value="1.2" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2z7dLWTu2vVqrl1Remkyupf42QJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.longestOnes.cpp.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/Chris/leet_code/main.cpp",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.longestOnes.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ File.longestSubarray.cpp.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/Chris/leet_code/main.cpp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\CLionProjects\leet_code\Leetcode_75" />
+      <recent name="C:\Users\Chris\CLionProjects\leet_code\Leetcode_75\output" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.longestSubarray.cpp">
     <configuration name="longestOnes.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leet_code" TARGET_NAME="longestOnes.cpp" CONFIG_NAME="longestOnes.cpp">
       <option name="sourceFile" value="Leetcode_75/longestOnes.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="longestSubarray.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leet_code" TARGET_NAME="longestSubarray.cpp" CONFIG_NAME="longestSubarray.cpp">
+      <option name="sourceFile" value="Leetcode_75\longestSubarray.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.longestOnes.cpp" />
+      <item itemvalue="C/C++ File.longestSubarray.cpp" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.longestSubarray.cpp" />
         <item itemvalue="C/C++ File.longestOnes.cpp" />
       </list>
     </recent_temporary>
@@ -164,6 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751085989892</updated>
       <workItem from="1751085991057" duration="158000" />
+      <workItem from="1751172040676" duration="119000" />
     </task>
     <servers />
   </component>
@@ -183,12 +143,11 @@
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Leetcode_75/longestOnes.cpp</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
