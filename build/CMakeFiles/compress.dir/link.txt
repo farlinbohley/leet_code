@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o -o bin/compress
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o -o /Users/Chris/leet_code/Leetcode_75/output/compress

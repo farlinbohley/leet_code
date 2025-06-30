@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named closeStrings
+
+# Build rule for target.
+closeStrings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 closeStrings
+.PHONY : closeStrings
+
+# fast build rule for target.
+closeStrings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closeStrings.dir/build.make CMakeFiles/closeStrings.dir/build
+.PHONY : closeStrings/fast
+
+#=============================================================================
 # Target rules for targets named compress
 
 # Build rule for target.
@@ -128,6 +141,58 @@ compress: cmake_check_build_system
 compress/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compress.dir/build.make CMakeFiles/compress.dir/build
 .PHONY : compress/fast
+
+#=============================================================================
+# Target rules for targets named equalPairs
+
+# Build rule for target.
+equalPairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 equalPairs
+.PHONY : equalPairs
+
+# fast build rule for target.
+equalPairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs.dir/build.make CMakeFiles/equalPairs.dir/build
+.PHONY : equalPairs/fast
+
+#=============================================================================
+# Target rules for targets named equalPairs_bruteforce
+
+# Build rule for target.
+equalPairs_bruteforce: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 equalPairs_bruteforce
+.PHONY : equalPairs_bruteforce
+
+# fast build rule for target.
+equalPairs_bruteforce/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs_bruteforce.dir/build.make CMakeFiles/equalPairs_bruteforce.dir/build
+.PHONY : equalPairs_bruteforce/fast
+
+#=============================================================================
+# Target rules for targets named findDifference
+
+# Build rule for target.
+findDifference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 findDifference
+.PHONY : findDifference
+
+# fast build rule for target.
+findDifference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findDifference.dir/build.make CMakeFiles/findDifference.dir/build
+.PHONY : findDifference/fast
+
+#=============================================================================
+# Target rules for targets named findMaxAverage
+
+# Build rule for target.
+findMaxAverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 findMaxAverage
+.PHONY : findMaxAverage
+
+# fast build rule for target.
+findMaxAverage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findMaxAverage.dir/build.make CMakeFiles/findMaxAverage.dir/build
+.PHONY : findMaxAverage/fast
 
 #=============================================================================
 # Target rules for targets named isSubsequence
@@ -143,6 +208,110 @@ isSubsequence/fast:
 .PHONY : isSubsequence/fast
 
 #=============================================================================
+# Target rules for targets named largestAltitude
+
+# Build rule for target.
+largestAltitude: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 largestAltitude
+.PHONY : largestAltitude
+
+# fast build rule for target.
+largestAltitude/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/largestAltitude.dir/build.make CMakeFiles/largestAltitude.dir/build
+.PHONY : largestAltitude/fast
+
+#=============================================================================
+# Target rules for targets named longestOnes_tle_
+
+# Build rule for target.
+longestOnes_tle_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 longestOnes_tle_
+.PHONY : longestOnes_tle_
+
+# fast build rule for target.
+longestOnes_tle_/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes_tle_.dir/build.make CMakeFiles/longestOnes_tle_.dir/build
+.PHONY : longestOnes_tle_/fast
+
+#=============================================================================
+# Target rules for targets named longestOnes
+
+# Build rule for target.
+longestOnes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 longestOnes
+.PHONY : longestOnes
+
+# fast build rule for target.
+longestOnes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes.dir/build.make CMakeFiles/longestOnes.dir/build
+.PHONY : longestOnes/fast
+
+#=============================================================================
+# Target rules for targets named longestSubarray
+
+# Build rule for target.
+longestSubarray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 longestSubarray
+.PHONY : longestSubarray
+
+# fast build rule for target.
+longestSubarray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestSubarray.dir/build.make CMakeFiles/longestSubarray.dir/build
+.PHONY : longestSubarray/fast
+
+#=============================================================================
+# Target rules for targets named maxArea
+
+# Build rule for target.
+maxArea: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxArea
+.PHONY : maxArea
+
+# fast build rule for target.
+maxArea/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxArea.dir/build.make CMakeFiles/maxArea.dir/build
+.PHONY : maxArea/fast
+
+#=============================================================================
+# Target rules for targets named maxOperations
+
+# Build rule for target.
+maxOperations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxOperations
+.PHONY : maxOperations
+
+# fast build rule for target.
+maxOperations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations.dir/build.make CMakeFiles/maxOperations.dir/build
+.PHONY : maxOperations/fast
+
+#=============================================================================
+# Target rules for targets named maxOperations_two_pointers
+
+# Build rule for target.
+maxOperations_two_pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxOperations_two_pointers
+.PHONY : maxOperations_two_pointers
+
+# fast build rule for target.
+maxOperations_two_pointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations_two_pointers.dir/build.make CMakeFiles/maxOperations_two_pointers.dir/build
+.PHONY : maxOperations_two_pointers/fast
+
+#=============================================================================
+# Target rules for targets named maxVowels
+
+# Build rule for target.
+maxVowels: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxVowels
+.PHONY : maxVowels
+
+# fast build rule for target.
+maxVowels/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxVowels.dir/build.make CMakeFiles/maxVowels.dir/build
+.PHONY : maxVowels/fast
+
+#=============================================================================
 # Target rules for targets named moveZeroes
 
 # Build rule for target.
@@ -154,6 +323,95 @@ moveZeroes: cmake_check_build_system
 moveZeroes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveZeroes.dir/build.make CMakeFiles/moveZeroes.dir/build
 .PHONY : moveZeroes/fast
+
+#=============================================================================
+# Target rules for targets named pivotIndex
+
+# Build rule for target.
+pivotIndex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pivotIndex
+.PHONY : pivotIndex
+
+# fast build rule for target.
+pivotIndex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex.dir/build.make CMakeFiles/pivotIndex.dir/build
+.PHONY : pivotIndex/fast
+
+#=============================================================================
+# Target rules for targets named pivotIndex_0_n_2_
+
+# Build rule for target.
+pivotIndex_0_n_2_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pivotIndex_0_n_2_
+.PHONY : pivotIndex_0_n_2_
+
+# fast build rule for target.
+pivotIndex_0_n_2_/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex_0_n_2_.dir/build.make CMakeFiles/pivotIndex_0_n_2_.dir/build
+.PHONY : pivotIndex_0_n_2_/fast
+
+#=============================================================================
+# Target rules for targets named removeStars
+
+# Build rule for target.
+removeStars: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 removeStars
+.PHONY : removeStars
+
+# fast build rule for target.
+removeStars/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/removeStars.dir/build.make CMakeFiles/removeStars.dir/build
+.PHONY : removeStars/fast
+
+#=============================================================================
+# Target rules for targets named uniqueOccurrences
+
+# Build rule for target.
+uniqueOccurrences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uniqueOccurrences
+.PHONY : uniqueOccurrences
+
+# fast build rule for target.
+uniqueOccurrences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniqueOccurrences.dir/build.make CMakeFiles/uniqueOccurrences.dir/build
+.PHONY : uniqueOccurrences/fast
+
+#=============================================================================
+# Target rules for targets named 01_two_sums
+
+# Build rule for target.
+01_two_sums: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01_two_sums
+.PHONY : 01_two_sums
+
+# fast build rule for target.
+01_two_sums/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_two_sums.dir/build.make CMakeFiles/01_two_sums.dir/build
+.PHONY : 01_two_sums/fast
+
+Leetcode_75/closeStrings.o: Leetcode_75/closeStrings.cpp.o
+.PHONY : Leetcode_75/closeStrings.o
+
+# target to build an object file
+Leetcode_75/closeStrings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closeStrings.dir/build.make CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.o
+.PHONY : Leetcode_75/closeStrings.cpp.o
+
+Leetcode_75/closeStrings.i: Leetcode_75/closeStrings.cpp.i
+.PHONY : Leetcode_75/closeStrings.i
+
+# target to preprocess a source file
+Leetcode_75/closeStrings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closeStrings.dir/build.make CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.i
+.PHONY : Leetcode_75/closeStrings.cpp.i
+
+Leetcode_75/closeStrings.s: Leetcode_75/closeStrings.cpp.s
+.PHONY : Leetcode_75/closeStrings.s
+
+# target to generate assembly for a file
+Leetcode_75/closeStrings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/closeStrings.dir/build.make CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.s
+.PHONY : Leetcode_75/closeStrings.cpp.s
 
 Leetcode_75/compress.o: Leetcode_75/compress.cpp.o
 .PHONY : Leetcode_75/compress.o
@@ -179,6 +437,102 @@ Leetcode_75/compress.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compress.dir/build.make CMakeFiles/compress.dir/Leetcode_75/compress.cpp.s
 .PHONY : Leetcode_75/compress.cpp.s
 
+Leetcode_75/equalPairs.o: Leetcode_75/equalPairs.cpp.o
+.PHONY : Leetcode_75/equalPairs.o
+
+# target to build an object file
+Leetcode_75/equalPairs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs.dir/build.make CMakeFiles/equalPairs.dir/Leetcode_75/equalPairs.cpp.o
+.PHONY : Leetcode_75/equalPairs.cpp.o
+
+Leetcode_75/equalPairs.i: Leetcode_75/equalPairs.cpp.i
+.PHONY : Leetcode_75/equalPairs.i
+
+# target to preprocess a source file
+Leetcode_75/equalPairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs.dir/build.make CMakeFiles/equalPairs.dir/Leetcode_75/equalPairs.cpp.i
+.PHONY : Leetcode_75/equalPairs.cpp.i
+
+Leetcode_75/equalPairs.s: Leetcode_75/equalPairs.cpp.s
+.PHONY : Leetcode_75/equalPairs.s
+
+# target to generate assembly for a file
+Leetcode_75/equalPairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs.dir/build.make CMakeFiles/equalPairs.dir/Leetcode_75/equalPairs.cpp.s
+.PHONY : Leetcode_75/equalPairs.cpp.s
+
+Leetcode_75/equalPairs_bruteforce.o: Leetcode_75/equalPairs_bruteforce.cpp.o
+.PHONY : Leetcode_75/equalPairs_bruteforce.o
+
+# target to build an object file
+Leetcode_75/equalPairs_bruteforce.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs_bruteforce.dir/build.make CMakeFiles/equalPairs_bruteforce.dir/Leetcode_75/equalPairs_bruteforce.cpp.o
+.PHONY : Leetcode_75/equalPairs_bruteforce.cpp.o
+
+Leetcode_75/equalPairs_bruteforce.i: Leetcode_75/equalPairs_bruteforce.cpp.i
+.PHONY : Leetcode_75/equalPairs_bruteforce.i
+
+# target to preprocess a source file
+Leetcode_75/equalPairs_bruteforce.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs_bruteforce.dir/build.make CMakeFiles/equalPairs_bruteforce.dir/Leetcode_75/equalPairs_bruteforce.cpp.i
+.PHONY : Leetcode_75/equalPairs_bruteforce.cpp.i
+
+Leetcode_75/equalPairs_bruteforce.s: Leetcode_75/equalPairs_bruteforce.cpp.s
+.PHONY : Leetcode_75/equalPairs_bruteforce.s
+
+# target to generate assembly for a file
+Leetcode_75/equalPairs_bruteforce.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/equalPairs_bruteforce.dir/build.make CMakeFiles/equalPairs_bruteforce.dir/Leetcode_75/equalPairs_bruteforce.cpp.s
+.PHONY : Leetcode_75/equalPairs_bruteforce.cpp.s
+
+Leetcode_75/findDifference.o: Leetcode_75/findDifference.cpp.o
+.PHONY : Leetcode_75/findDifference.o
+
+# target to build an object file
+Leetcode_75/findDifference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findDifference.dir/build.make CMakeFiles/findDifference.dir/Leetcode_75/findDifference.cpp.o
+.PHONY : Leetcode_75/findDifference.cpp.o
+
+Leetcode_75/findDifference.i: Leetcode_75/findDifference.cpp.i
+.PHONY : Leetcode_75/findDifference.i
+
+# target to preprocess a source file
+Leetcode_75/findDifference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findDifference.dir/build.make CMakeFiles/findDifference.dir/Leetcode_75/findDifference.cpp.i
+.PHONY : Leetcode_75/findDifference.cpp.i
+
+Leetcode_75/findDifference.s: Leetcode_75/findDifference.cpp.s
+.PHONY : Leetcode_75/findDifference.s
+
+# target to generate assembly for a file
+Leetcode_75/findDifference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findDifference.dir/build.make CMakeFiles/findDifference.dir/Leetcode_75/findDifference.cpp.s
+.PHONY : Leetcode_75/findDifference.cpp.s
+
+Leetcode_75/findMaxAverage.o: Leetcode_75/findMaxAverage.cpp.o
+.PHONY : Leetcode_75/findMaxAverage.o
+
+# target to build an object file
+Leetcode_75/findMaxAverage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findMaxAverage.dir/build.make CMakeFiles/findMaxAverage.dir/Leetcode_75/findMaxAverage.cpp.o
+.PHONY : Leetcode_75/findMaxAverage.cpp.o
+
+Leetcode_75/findMaxAverage.i: Leetcode_75/findMaxAverage.cpp.i
+.PHONY : Leetcode_75/findMaxAverage.i
+
+# target to preprocess a source file
+Leetcode_75/findMaxAverage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findMaxAverage.dir/build.make CMakeFiles/findMaxAverage.dir/Leetcode_75/findMaxAverage.cpp.i
+.PHONY : Leetcode_75/findMaxAverage.cpp.i
+
+Leetcode_75/findMaxAverage.s: Leetcode_75/findMaxAverage.cpp.s
+.PHONY : Leetcode_75/findMaxAverage.s
+
+# target to generate assembly for a file
+Leetcode_75/findMaxAverage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findMaxAverage.dir/build.make CMakeFiles/findMaxAverage.dir/Leetcode_75/findMaxAverage.cpp.s
+.PHONY : Leetcode_75/findMaxAverage.cpp.s
+
 Leetcode_75/isSubsequence.o: Leetcode_75/isSubsequence.cpp.o
 .PHONY : Leetcode_75/isSubsequence.o
 
@@ -202,6 +556,198 @@ Leetcode_75/isSubsequence.s: Leetcode_75/isSubsequence.cpp.s
 Leetcode_75/isSubsequence.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/isSubsequence.dir/build.make CMakeFiles/isSubsequence.dir/Leetcode_75/isSubsequence.cpp.s
 .PHONY : Leetcode_75/isSubsequence.cpp.s
+
+Leetcode_75/largestAltitude.o: Leetcode_75/largestAltitude.cpp.o
+.PHONY : Leetcode_75/largestAltitude.o
+
+# target to build an object file
+Leetcode_75/largestAltitude.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/largestAltitude.dir/build.make CMakeFiles/largestAltitude.dir/Leetcode_75/largestAltitude.cpp.o
+.PHONY : Leetcode_75/largestAltitude.cpp.o
+
+Leetcode_75/largestAltitude.i: Leetcode_75/largestAltitude.cpp.i
+.PHONY : Leetcode_75/largestAltitude.i
+
+# target to preprocess a source file
+Leetcode_75/largestAltitude.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/largestAltitude.dir/build.make CMakeFiles/largestAltitude.dir/Leetcode_75/largestAltitude.cpp.i
+.PHONY : Leetcode_75/largestAltitude.cpp.i
+
+Leetcode_75/largestAltitude.s: Leetcode_75/largestAltitude.cpp.s
+.PHONY : Leetcode_75/largestAltitude.s
+
+# target to generate assembly for a file
+Leetcode_75/largestAltitude.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/largestAltitude.dir/build.make CMakeFiles/largestAltitude.dir/Leetcode_75/largestAltitude.cpp.s
+.PHONY : Leetcode_75/largestAltitude.cpp.s
+
+Leetcode_75/longestOnes(tle).o: Leetcode_75/longestOnes(tle).cpp.o
+.PHONY : Leetcode_75/longestOnes(tle).o
+
+# target to build an object file
+Leetcode_75/longestOnes(tle).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes_tle_.dir/build.make "CMakeFiles/longestOnes_tle_.dir/Leetcode_75/longestOnes(tle).cpp.o"
+.PHONY : Leetcode_75/longestOnes(tle).cpp.o
+
+Leetcode_75/longestOnes(tle).i: Leetcode_75/longestOnes(tle).cpp.i
+.PHONY : Leetcode_75/longestOnes(tle).i
+
+# target to preprocess a source file
+Leetcode_75/longestOnes(tle).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes_tle_.dir/build.make "CMakeFiles/longestOnes_tle_.dir/Leetcode_75/longestOnes(tle).cpp.i"
+.PHONY : Leetcode_75/longestOnes(tle).cpp.i
+
+Leetcode_75/longestOnes(tle).s: Leetcode_75/longestOnes(tle).cpp.s
+.PHONY : Leetcode_75/longestOnes(tle).s
+
+# target to generate assembly for a file
+Leetcode_75/longestOnes(tle).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes_tle_.dir/build.make "CMakeFiles/longestOnes_tle_.dir/Leetcode_75/longestOnes(tle).cpp.s"
+.PHONY : Leetcode_75/longestOnes(tle).cpp.s
+
+Leetcode_75/longestOnes.o: Leetcode_75/longestOnes.cpp.o
+.PHONY : Leetcode_75/longestOnes.o
+
+# target to build an object file
+Leetcode_75/longestOnes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes.dir/build.make CMakeFiles/longestOnes.dir/Leetcode_75/longestOnes.cpp.o
+.PHONY : Leetcode_75/longestOnes.cpp.o
+
+Leetcode_75/longestOnes.i: Leetcode_75/longestOnes.cpp.i
+.PHONY : Leetcode_75/longestOnes.i
+
+# target to preprocess a source file
+Leetcode_75/longestOnes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes.dir/build.make CMakeFiles/longestOnes.dir/Leetcode_75/longestOnes.cpp.i
+.PHONY : Leetcode_75/longestOnes.cpp.i
+
+Leetcode_75/longestOnes.s: Leetcode_75/longestOnes.cpp.s
+.PHONY : Leetcode_75/longestOnes.s
+
+# target to generate assembly for a file
+Leetcode_75/longestOnes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestOnes.dir/build.make CMakeFiles/longestOnes.dir/Leetcode_75/longestOnes.cpp.s
+.PHONY : Leetcode_75/longestOnes.cpp.s
+
+Leetcode_75/longestSubarray.o: Leetcode_75/longestSubarray.cpp.o
+.PHONY : Leetcode_75/longestSubarray.o
+
+# target to build an object file
+Leetcode_75/longestSubarray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestSubarray.dir/build.make CMakeFiles/longestSubarray.dir/Leetcode_75/longestSubarray.cpp.o
+.PHONY : Leetcode_75/longestSubarray.cpp.o
+
+Leetcode_75/longestSubarray.i: Leetcode_75/longestSubarray.cpp.i
+.PHONY : Leetcode_75/longestSubarray.i
+
+# target to preprocess a source file
+Leetcode_75/longestSubarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestSubarray.dir/build.make CMakeFiles/longestSubarray.dir/Leetcode_75/longestSubarray.cpp.i
+.PHONY : Leetcode_75/longestSubarray.cpp.i
+
+Leetcode_75/longestSubarray.s: Leetcode_75/longestSubarray.cpp.s
+.PHONY : Leetcode_75/longestSubarray.s
+
+# target to generate assembly for a file
+Leetcode_75/longestSubarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/longestSubarray.dir/build.make CMakeFiles/longestSubarray.dir/Leetcode_75/longestSubarray.cpp.s
+.PHONY : Leetcode_75/longestSubarray.cpp.s
+
+Leetcode_75/maxArea.o: Leetcode_75/maxArea.cpp.o
+.PHONY : Leetcode_75/maxArea.o
+
+# target to build an object file
+Leetcode_75/maxArea.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxArea.dir/build.make CMakeFiles/maxArea.dir/Leetcode_75/maxArea.cpp.o
+.PHONY : Leetcode_75/maxArea.cpp.o
+
+Leetcode_75/maxArea.i: Leetcode_75/maxArea.cpp.i
+.PHONY : Leetcode_75/maxArea.i
+
+# target to preprocess a source file
+Leetcode_75/maxArea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxArea.dir/build.make CMakeFiles/maxArea.dir/Leetcode_75/maxArea.cpp.i
+.PHONY : Leetcode_75/maxArea.cpp.i
+
+Leetcode_75/maxArea.s: Leetcode_75/maxArea.cpp.s
+.PHONY : Leetcode_75/maxArea.s
+
+# target to generate assembly for a file
+Leetcode_75/maxArea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxArea.dir/build.make CMakeFiles/maxArea.dir/Leetcode_75/maxArea.cpp.s
+.PHONY : Leetcode_75/maxArea.cpp.s
+
+Leetcode_75/maxOperations.o: Leetcode_75/maxOperations.cpp.o
+.PHONY : Leetcode_75/maxOperations.o
+
+# target to build an object file
+Leetcode_75/maxOperations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations.dir/build.make CMakeFiles/maxOperations.dir/Leetcode_75/maxOperations.cpp.o
+.PHONY : Leetcode_75/maxOperations.cpp.o
+
+Leetcode_75/maxOperations.i: Leetcode_75/maxOperations.cpp.i
+.PHONY : Leetcode_75/maxOperations.i
+
+# target to preprocess a source file
+Leetcode_75/maxOperations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations.dir/build.make CMakeFiles/maxOperations.dir/Leetcode_75/maxOperations.cpp.i
+.PHONY : Leetcode_75/maxOperations.cpp.i
+
+Leetcode_75/maxOperations.s: Leetcode_75/maxOperations.cpp.s
+.PHONY : Leetcode_75/maxOperations.s
+
+# target to generate assembly for a file
+Leetcode_75/maxOperations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations.dir/build.make CMakeFiles/maxOperations.dir/Leetcode_75/maxOperations.cpp.s
+.PHONY : Leetcode_75/maxOperations.cpp.s
+
+Leetcode_75/maxOperations_two_pointers.o: Leetcode_75/maxOperations_two_pointers.cpp.o
+.PHONY : Leetcode_75/maxOperations_two_pointers.o
+
+# target to build an object file
+Leetcode_75/maxOperations_two_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations_two_pointers.dir/build.make CMakeFiles/maxOperations_two_pointers.dir/Leetcode_75/maxOperations_two_pointers.cpp.o
+.PHONY : Leetcode_75/maxOperations_two_pointers.cpp.o
+
+Leetcode_75/maxOperations_two_pointers.i: Leetcode_75/maxOperations_two_pointers.cpp.i
+.PHONY : Leetcode_75/maxOperations_two_pointers.i
+
+# target to preprocess a source file
+Leetcode_75/maxOperations_two_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations_two_pointers.dir/build.make CMakeFiles/maxOperations_two_pointers.dir/Leetcode_75/maxOperations_two_pointers.cpp.i
+.PHONY : Leetcode_75/maxOperations_two_pointers.cpp.i
+
+Leetcode_75/maxOperations_two_pointers.s: Leetcode_75/maxOperations_two_pointers.cpp.s
+.PHONY : Leetcode_75/maxOperations_two_pointers.s
+
+# target to generate assembly for a file
+Leetcode_75/maxOperations_two_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxOperations_two_pointers.dir/build.make CMakeFiles/maxOperations_two_pointers.dir/Leetcode_75/maxOperations_two_pointers.cpp.s
+.PHONY : Leetcode_75/maxOperations_two_pointers.cpp.s
+
+Leetcode_75/maxVowels.o: Leetcode_75/maxVowels.cpp.o
+.PHONY : Leetcode_75/maxVowels.o
+
+# target to build an object file
+Leetcode_75/maxVowels.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxVowels.dir/build.make CMakeFiles/maxVowels.dir/Leetcode_75/maxVowels.cpp.o
+.PHONY : Leetcode_75/maxVowels.cpp.o
+
+Leetcode_75/maxVowels.i: Leetcode_75/maxVowels.cpp.i
+.PHONY : Leetcode_75/maxVowels.i
+
+# target to preprocess a source file
+Leetcode_75/maxVowels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxVowels.dir/build.make CMakeFiles/maxVowels.dir/Leetcode_75/maxVowels.cpp.i
+.PHONY : Leetcode_75/maxVowels.cpp.i
+
+Leetcode_75/maxVowels.s: Leetcode_75/maxVowels.cpp.s
+.PHONY : Leetcode_75/maxVowels.s
+
+# target to generate assembly for a file
+Leetcode_75/maxVowels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxVowels.dir/build.make CMakeFiles/maxVowels.dir/Leetcode_75/maxVowels.cpp.s
+.PHONY : Leetcode_75/maxVowels.cpp.s
 
 Leetcode_75/moveZeroes.o: Leetcode_75/moveZeroes.cpp.o
 .PHONY : Leetcode_75/moveZeroes.o
@@ -227,6 +773,126 @@ Leetcode_75/moveZeroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveZeroes.dir/build.make CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.s
 .PHONY : Leetcode_75/moveZeroes.cpp.s
 
+Leetcode_75/pivotIndex.o: Leetcode_75/pivotIndex.cpp.o
+.PHONY : Leetcode_75/pivotIndex.o
+
+# target to build an object file
+Leetcode_75/pivotIndex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex.dir/build.make CMakeFiles/pivotIndex.dir/Leetcode_75/pivotIndex.cpp.o
+.PHONY : Leetcode_75/pivotIndex.cpp.o
+
+Leetcode_75/pivotIndex.i: Leetcode_75/pivotIndex.cpp.i
+.PHONY : Leetcode_75/pivotIndex.i
+
+# target to preprocess a source file
+Leetcode_75/pivotIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex.dir/build.make CMakeFiles/pivotIndex.dir/Leetcode_75/pivotIndex.cpp.i
+.PHONY : Leetcode_75/pivotIndex.cpp.i
+
+Leetcode_75/pivotIndex.s: Leetcode_75/pivotIndex.cpp.s
+.PHONY : Leetcode_75/pivotIndex.s
+
+# target to generate assembly for a file
+Leetcode_75/pivotIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex.dir/build.make CMakeFiles/pivotIndex.dir/Leetcode_75/pivotIndex.cpp.s
+.PHONY : Leetcode_75/pivotIndex.cpp.s
+
+Leetcode_75/pivotIndex_0(n^2).o: Leetcode_75/pivotIndex_0(n^2).cpp.o
+.PHONY : Leetcode_75/pivotIndex_0(n^2).o
+
+# target to build an object file
+Leetcode_75/pivotIndex_0(n^2).cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex_0_n_2_.dir/build.make "CMakeFiles/pivotIndex_0_n_2_.dir/Leetcode_75/pivotIndex_0(n^2).cpp.o"
+.PHONY : Leetcode_75/pivotIndex_0(n^2).cpp.o
+
+Leetcode_75/pivotIndex_0(n^2).i: Leetcode_75/pivotIndex_0(n^2).cpp.i
+.PHONY : Leetcode_75/pivotIndex_0(n^2).i
+
+# target to preprocess a source file
+Leetcode_75/pivotIndex_0(n^2).cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex_0_n_2_.dir/build.make "CMakeFiles/pivotIndex_0_n_2_.dir/Leetcode_75/pivotIndex_0(n^2).cpp.i"
+.PHONY : Leetcode_75/pivotIndex_0(n^2).cpp.i
+
+Leetcode_75/pivotIndex_0(n^2).s: Leetcode_75/pivotIndex_0(n^2).cpp.s
+.PHONY : Leetcode_75/pivotIndex_0(n^2).s
+
+# target to generate assembly for a file
+Leetcode_75/pivotIndex_0(n^2).cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pivotIndex_0_n_2_.dir/build.make "CMakeFiles/pivotIndex_0_n_2_.dir/Leetcode_75/pivotIndex_0(n^2).cpp.s"
+.PHONY : Leetcode_75/pivotIndex_0(n^2).cpp.s
+
+Leetcode_75/removeStars.o: Leetcode_75/removeStars.cpp.o
+.PHONY : Leetcode_75/removeStars.o
+
+# target to build an object file
+Leetcode_75/removeStars.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/removeStars.dir/build.make CMakeFiles/removeStars.dir/Leetcode_75/removeStars.cpp.o
+.PHONY : Leetcode_75/removeStars.cpp.o
+
+Leetcode_75/removeStars.i: Leetcode_75/removeStars.cpp.i
+.PHONY : Leetcode_75/removeStars.i
+
+# target to preprocess a source file
+Leetcode_75/removeStars.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/removeStars.dir/build.make CMakeFiles/removeStars.dir/Leetcode_75/removeStars.cpp.i
+.PHONY : Leetcode_75/removeStars.cpp.i
+
+Leetcode_75/removeStars.s: Leetcode_75/removeStars.cpp.s
+.PHONY : Leetcode_75/removeStars.s
+
+# target to generate assembly for a file
+Leetcode_75/removeStars.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/removeStars.dir/build.make CMakeFiles/removeStars.dir/Leetcode_75/removeStars.cpp.s
+.PHONY : Leetcode_75/removeStars.cpp.s
+
+Leetcode_75/uniqueOccurrences.o: Leetcode_75/uniqueOccurrences.cpp.o
+.PHONY : Leetcode_75/uniqueOccurrences.o
+
+# target to build an object file
+Leetcode_75/uniqueOccurrences.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniqueOccurrences.dir/build.make CMakeFiles/uniqueOccurrences.dir/Leetcode_75/uniqueOccurrences.cpp.o
+.PHONY : Leetcode_75/uniqueOccurrences.cpp.o
+
+Leetcode_75/uniqueOccurrences.i: Leetcode_75/uniqueOccurrences.cpp.i
+.PHONY : Leetcode_75/uniqueOccurrences.i
+
+# target to preprocess a source file
+Leetcode_75/uniqueOccurrences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniqueOccurrences.dir/build.make CMakeFiles/uniqueOccurrences.dir/Leetcode_75/uniqueOccurrences.cpp.i
+.PHONY : Leetcode_75/uniqueOccurrences.cpp.i
+
+Leetcode_75/uniqueOccurrences.s: Leetcode_75/uniqueOccurrences.cpp.s
+.PHONY : Leetcode_75/uniqueOccurrences.s
+
+# target to generate assembly for a file
+Leetcode_75/uniqueOccurrences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniqueOccurrences.dir/build.make CMakeFiles/uniqueOccurrences.dir/Leetcode_75/uniqueOccurrences.cpp.s
+.PHONY : Leetcode_75/uniqueOccurrences.cpp.s
+
+problems/01/two_sums.o: problems/01/two_sums.cpp.o
+.PHONY : problems/01/two_sums.o
+
+# target to build an object file
+problems/01/two_sums.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_two_sums.dir/build.make CMakeFiles/01_two_sums.dir/problems/01/two_sums.cpp.o
+.PHONY : problems/01/two_sums.cpp.o
+
+problems/01/two_sums.i: problems/01/two_sums.cpp.i
+.PHONY : problems/01/two_sums.i
+
+# target to preprocess a source file
+problems/01/two_sums.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_two_sums.dir/build.make CMakeFiles/01_two_sums.dir/problems/01/two_sums.cpp.i
+.PHONY : problems/01/two_sums.cpp.i
+
+problems/01/two_sums.s: problems/01/two_sums.cpp.s
+.PHONY : problems/01/two_sums.s
+
+# target to generate assembly for a file
+problems/01/two_sums.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_two_sums.dir/build.make CMakeFiles/01_two_sums.dir/problems/01/two_sums.cpp.s
+.PHONY : problems/01/two_sums.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,18 +901,90 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 01_two_sums"
+	@echo "... closeStrings"
 	@echo "... compress"
+	@echo "... equalPairs"
+	@echo "... equalPairs_bruteforce"
+	@echo "... findDifference"
+	@echo "... findMaxAverage"
 	@echo "... isSubsequence"
+	@echo "... largestAltitude"
+	@echo "... longestOnes"
+	@echo "... longestOnes_tle_"
+	@echo "... longestSubarray"
+	@echo "... maxArea"
+	@echo "... maxOperations"
+	@echo "... maxOperations_two_pointers"
+	@echo "... maxVowels"
 	@echo "... moveZeroes"
+	@echo "... pivotIndex"
+	@echo "... pivotIndex_0_n_2_"
+	@echo "... removeStars"
+	@echo "... uniqueOccurrences"
+	@echo "... Leetcode_75/closeStrings.o"
+	@echo "... Leetcode_75/closeStrings.i"
+	@echo "... Leetcode_75/closeStrings.s"
 	@echo "... Leetcode_75/compress.o"
 	@echo "... Leetcode_75/compress.i"
 	@echo "... Leetcode_75/compress.s"
+	@echo "... Leetcode_75/equalPairs.o"
+	@echo "... Leetcode_75/equalPairs.i"
+	@echo "... Leetcode_75/equalPairs.s"
+	@echo "... Leetcode_75/equalPairs_bruteforce.o"
+	@echo "... Leetcode_75/equalPairs_bruteforce.i"
+	@echo "... Leetcode_75/equalPairs_bruteforce.s"
+	@echo "... Leetcode_75/findDifference.o"
+	@echo "... Leetcode_75/findDifference.i"
+	@echo "... Leetcode_75/findDifference.s"
+	@echo "... Leetcode_75/findMaxAverage.o"
+	@echo "... Leetcode_75/findMaxAverage.i"
+	@echo "... Leetcode_75/findMaxAverage.s"
 	@echo "... Leetcode_75/isSubsequence.o"
 	@echo "... Leetcode_75/isSubsequence.i"
 	@echo "... Leetcode_75/isSubsequence.s"
+	@echo "... Leetcode_75/largestAltitude.o"
+	@echo "... Leetcode_75/largestAltitude.i"
+	@echo "... Leetcode_75/largestAltitude.s"
+	@echo "... Leetcode_75/longestOnes(tle).o"
+	@echo "... Leetcode_75/longestOnes(tle).i"
+	@echo "... Leetcode_75/longestOnes(tle).s"
+	@echo "... Leetcode_75/longestOnes.o"
+	@echo "... Leetcode_75/longestOnes.i"
+	@echo "... Leetcode_75/longestOnes.s"
+	@echo "... Leetcode_75/longestSubarray.o"
+	@echo "... Leetcode_75/longestSubarray.i"
+	@echo "... Leetcode_75/longestSubarray.s"
+	@echo "... Leetcode_75/maxArea.o"
+	@echo "... Leetcode_75/maxArea.i"
+	@echo "... Leetcode_75/maxArea.s"
+	@echo "... Leetcode_75/maxOperations.o"
+	@echo "... Leetcode_75/maxOperations.i"
+	@echo "... Leetcode_75/maxOperations.s"
+	@echo "... Leetcode_75/maxOperations_two_pointers.o"
+	@echo "... Leetcode_75/maxOperations_two_pointers.i"
+	@echo "... Leetcode_75/maxOperations_two_pointers.s"
+	@echo "... Leetcode_75/maxVowels.o"
+	@echo "... Leetcode_75/maxVowels.i"
+	@echo "... Leetcode_75/maxVowels.s"
 	@echo "... Leetcode_75/moveZeroes.o"
 	@echo "... Leetcode_75/moveZeroes.i"
 	@echo "... Leetcode_75/moveZeroes.s"
+	@echo "... Leetcode_75/pivotIndex.o"
+	@echo "... Leetcode_75/pivotIndex.i"
+	@echo "... Leetcode_75/pivotIndex.s"
+	@echo "... Leetcode_75/pivotIndex_0(n^2).o"
+	@echo "... Leetcode_75/pivotIndex_0(n^2).i"
+	@echo "... Leetcode_75/pivotIndex_0(n^2).s"
+	@echo "... Leetcode_75/removeStars.o"
+	@echo "... Leetcode_75/removeStars.i"
+	@echo "... Leetcode_75/removeStars.s"
+	@echo "... Leetcode_75/uniqueOccurrences.o"
+	@echo "... Leetcode_75/uniqueOccurrences.i"
+	@echo "... Leetcode_75/uniqueOccurrences.s"
+	@echo "... problems/01/two_sums.o"
+	@echo "... problems/01/two_sums.i"
+	@echo "... problems/01/two_sums.s"
 .PHONY : help
 
 

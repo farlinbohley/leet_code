@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/maxArea.dir/Leetcode_75/maxArea.cpp.o -o /Users/Chris/leet_code/Leetcode_75/output/maxArea

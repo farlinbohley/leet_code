@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/01_two_sums.dir/problems/01/two_sums.cpp.o -o /Users/Chris/leet_code/Leetcode_75/output/01_two_sums

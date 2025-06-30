@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/Users/Chris/leet_code/Leetcode_75/output/moveZeroes"
+  "/Users/Chris/leet_code/Leetcode_75/output/moveZeroes.pdb"
   "CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o"
   "CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o.d"
-  "bin/moveZeroes"
-  "bin/moveZeroes.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

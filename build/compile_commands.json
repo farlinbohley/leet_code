@@ -1,20 +1,128 @@
 [
 {
   "directory": "/Users/Chris/leet_code/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -Wall -Wextra -g -o CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o -c /Users/Chris/leet_code/Leetcode_75/compress.cpp",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.o -c /Users/Chris/leet_code/Leetcode_75/closeStrings.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/closeStrings.cpp",
+  "output": "CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o -c /Users/Chris/leet_code/Leetcode_75/compress.cpp",
   "file": "/Users/Chris/leet_code/Leetcode_75/compress.cpp",
   "output": "CMakeFiles/compress.dir/Leetcode_75/compress.cpp.o"
 },
 {
   "directory": "/Users/Chris/leet_code/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -Wall -Wextra -g -o CMakeFiles/isSubsequence.dir/Leetcode_75/isSubsequence.cpp.o -c /Users/Chris/leet_code/Leetcode_75/isSubsequence.cpp",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/equalPairs.dir/Leetcode_75/equalPairs.cpp.o -c /Users/Chris/leet_code/Leetcode_75/equalPairs.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/equalPairs.cpp",
+  "output": "CMakeFiles/equalPairs.dir/Leetcode_75/equalPairs.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/equalPairs_bruteforce.dir/Leetcode_75/equalPairs_bruteforce.cpp.o -c /Users/Chris/leet_code/Leetcode_75/equalPairs_bruteforce.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/equalPairs_bruteforce.cpp",
+  "output": "CMakeFiles/equalPairs_bruteforce.dir/Leetcode_75/equalPairs_bruteforce.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/findDifference.dir/Leetcode_75/findDifference.cpp.o -c /Users/Chris/leet_code/Leetcode_75/findDifference.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/findDifference.cpp",
+  "output": "CMakeFiles/findDifference.dir/Leetcode_75/findDifference.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/findMaxAverage.dir/Leetcode_75/findMaxAverage.cpp.o -c /Users/Chris/leet_code/Leetcode_75/findMaxAverage.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/findMaxAverage.cpp",
+  "output": "CMakeFiles/findMaxAverage.dir/Leetcode_75/findMaxAverage.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/isSubsequence.dir/Leetcode_75/isSubsequence.cpp.o -c /Users/Chris/leet_code/Leetcode_75/isSubsequence.cpp",
   "file": "/Users/Chris/leet_code/Leetcode_75/isSubsequence.cpp",
   "output": "CMakeFiles/isSubsequence.dir/Leetcode_75/isSubsequence.cpp.o"
 },
 {
   "directory": "/Users/Chris/leet_code/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -Wall -Wextra -g -o CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o -c /Users/Chris/leet_code/Leetcode_75/moveZeroes.cpp",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/largestAltitude.dir/Leetcode_75/largestAltitude.cpp.o -c /Users/Chris/leet_code/Leetcode_75/largestAltitude.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/largestAltitude.cpp",
+  "output": "CMakeFiles/largestAltitude.dir/Leetcode_75/largestAltitude.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o \"CMakeFiles/longestOnes_tle_.dir/Leetcode_75/longestOnes(tle).cpp.o\" -c \"/Users/Chris/leet_code/Leetcode_75/longestOnes(tle).cpp\"",
+  "file": "/Users/Chris/leet_code/Leetcode_75/longestOnes(tle).cpp",
+  "output": "CMakeFiles/longestOnes_tle_.dir/Leetcode_75/longestOnes(tle).cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/longestOnes.dir/Leetcode_75/longestOnes.cpp.o -c /Users/Chris/leet_code/Leetcode_75/longestOnes.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/longestOnes.cpp",
+  "output": "CMakeFiles/longestOnes.dir/Leetcode_75/longestOnes.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/longestSubarray.dir/Leetcode_75/longestSubarray.cpp.o -c /Users/Chris/leet_code/Leetcode_75/longestSubarray.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/longestSubarray.cpp",
+  "output": "CMakeFiles/longestSubarray.dir/Leetcode_75/longestSubarray.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/maxArea.dir/Leetcode_75/maxArea.cpp.o -c /Users/Chris/leet_code/Leetcode_75/maxArea.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/maxArea.cpp",
+  "output": "CMakeFiles/maxArea.dir/Leetcode_75/maxArea.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/maxOperations.dir/Leetcode_75/maxOperations.cpp.o -c /Users/Chris/leet_code/Leetcode_75/maxOperations.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/maxOperations.cpp",
+  "output": "CMakeFiles/maxOperations.dir/Leetcode_75/maxOperations.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/maxOperations_two_pointers.dir/Leetcode_75/maxOperations_two_pointers.cpp.o -c /Users/Chris/leet_code/Leetcode_75/maxOperations_two_pointers.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/maxOperations_two_pointers.cpp",
+  "output": "CMakeFiles/maxOperations_two_pointers.dir/Leetcode_75/maxOperations_two_pointers.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/maxVowels.dir/Leetcode_75/maxVowels.cpp.o -c /Users/Chris/leet_code/Leetcode_75/maxVowels.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/maxVowels.cpp",
+  "output": "CMakeFiles/maxVowels.dir/Leetcode_75/maxVowels.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o -c /Users/Chris/leet_code/Leetcode_75/moveZeroes.cpp",
   "file": "/Users/Chris/leet_code/Leetcode_75/moveZeroes.cpp",
   "output": "CMakeFiles/moveZeroes.dir/Leetcode_75/moveZeroes.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/pivotIndex.dir/Leetcode_75/pivotIndex.cpp.o -c /Users/Chris/leet_code/Leetcode_75/pivotIndex.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/pivotIndex.cpp",
+  "output": "CMakeFiles/pivotIndex.dir/Leetcode_75/pivotIndex.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o \"CMakeFiles/pivotIndex_0_n_2_.dir/Leetcode_75/pivotIndex_0(n^2).cpp.o\" -c \"/Users/Chris/leet_code/Leetcode_75/pivotIndex_0(n^2).cpp\"",
+  "file": "/Users/Chris/leet_code/Leetcode_75/pivotIndex_0(n^2).cpp",
+  "output": "CMakeFiles/pivotIndex_0_n_2_.dir/Leetcode_75/pivotIndex_0(n^2).cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/removeStars.dir/Leetcode_75/removeStars.cpp.o -c /Users/Chris/leet_code/Leetcode_75/removeStars.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/removeStars.cpp",
+  "output": "CMakeFiles/removeStars.dir/Leetcode_75/removeStars.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/uniqueOccurrences.dir/Leetcode_75/uniqueOccurrences.cpp.o -c /Users/Chris/leet_code/Leetcode_75/uniqueOccurrences.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/uniqueOccurrences.cpp",
+  "output": "CMakeFiles/uniqueOccurrences.dir/Leetcode_75/uniqueOccurrences.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/01_two_sums.dir/problems/01/two_sums.cpp.o -c /Users/Chris/leet_code/problems/01/two_sums.cpp",
+  "file": "/Users/Chris/leet_code/problems/01/two_sums.cpp",
+  "output": "CMakeFiles/01_two_sums.dir/problems/01/two_sums.cpp.o"
 }
 ]

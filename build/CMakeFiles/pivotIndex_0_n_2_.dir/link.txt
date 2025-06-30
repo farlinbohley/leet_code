@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/pivotIndex_0_n_2_.dir/Leetcode_75/pivotIndex_0(n^2).cpp.o" -o /Users/Chris/leet_code/Leetcode_75/output/pivotIndex_0_n_2_

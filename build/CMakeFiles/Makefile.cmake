@@ -56,7 +56,25 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/closeStrings.dir/DependInfo.cmake"
   "CMakeFiles/compress.dir/DependInfo.cmake"
+  "CMakeFiles/equalPairs.dir/DependInfo.cmake"
+  "CMakeFiles/equalPairs_bruteforce.dir/DependInfo.cmake"
+  "CMakeFiles/findDifference.dir/DependInfo.cmake"
+  "CMakeFiles/findMaxAverage.dir/DependInfo.cmake"
   "CMakeFiles/isSubsequence.dir/DependInfo.cmake"
+  "CMakeFiles/largestAltitude.dir/DependInfo.cmake"
+  "CMakeFiles/longestOnes_tle_.dir/DependInfo.cmake"
+  "CMakeFiles/longestOnes.dir/DependInfo.cmake"
+  "CMakeFiles/longestSubarray.dir/DependInfo.cmake"
+  "CMakeFiles/maxArea.dir/DependInfo.cmake"
+  "CMakeFiles/maxOperations.dir/DependInfo.cmake"
+  "CMakeFiles/maxOperations_two_pointers.dir/DependInfo.cmake"
+  "CMakeFiles/maxVowels.dir/DependInfo.cmake"
   "CMakeFiles/moveZeroes.dir/DependInfo.cmake"
+  "CMakeFiles/pivotIndex.dir/DependInfo.cmake"
+  "CMakeFiles/pivotIndex_0_n_2_.dir/DependInfo.cmake"
+  "CMakeFiles/removeStars.dir/DependInfo.cmake"
+  "CMakeFiles/uniqueOccurrences.dir/DependInfo.cmake"
+  "CMakeFiles/01_two_sums.dir/DependInfo.cmake"
   )

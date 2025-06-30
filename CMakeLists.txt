@@ -16,17 +16,32 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Leetcode_75/output)
 # Option 4: Put executables directly in build folder
 # set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
+# Also set CMAKE_EXPORT_COMPILE_COMMANDS to generate compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Find all .cpp files in Leetcode_75 directory
 file(GLOB CPP_FILES "Leetcode_75/*.cpp")
 
 # Create executables for each .cpp file
 foreach(CPP_FILE ${CPP_FILES})
     get_filename_component(EXEC_NAME ${CPP_FILE} NAME_WE)
-    add_executable(${EXEC_NAME} ${CPP_FILE}
-            Leetcode_75/longestSubarray.cpp
-            Leetcode_75/longestSubarray.cpp
-            Leetcode_75/longestSubarray.cpp
-            Leetcode_75/largestAltitude.cpp
-            "Leetcode_75/pivotIndex_0(n^2).cpp"
-            Leetcode_75/pivotIndex.cpp)
+    # Sanitize executable name by replacing invalid characters
+    string(REPLACE "(" "_" EXEC_NAME ${EXEC_NAME})
+    string(REPLACE ")" "_" EXEC_NAME ${EXEC_NAME})
+    string(REPLACE "^" "_" EXEC_NAME ${EXEC_NAME})
+    add_executable(${EXEC_NAME} ${CPP_FILE})
+endforeach()
+
+# Also compile C++ files in problems directory if needed
+file(GLOB PROBLEM_CPP_FILES "problems/*/*.cpp")
+foreach(CPP_FILE ${PROBLEM_CPP_FILES})
+    get_filename_component(EXEC_NAME ${CPP_FILE} NAME_WE)
+    get_filename_component(PARENT_DIR ${CPP_FILE} DIRECTORY)
+    get_filename_component(PARENT_NAME ${PARENT_DIR} NAME)
+    # Sanitize executable name
+    string(REPLACE "(" "_" EXEC_NAME ${EXEC_NAME})
+    string(REPLACE ")" "_" EXEC_NAME ${EXEC_NAME})
+    string(REPLACE "^" "_" EXEC_NAME ${EXEC_NAME})
+    # Create executable with parent directory name prefix to avoid name conflicts
+    add_executable(${PARENT_NAME}_${EXEC_NAME} ${CPP_FILE})
 endforeach()
