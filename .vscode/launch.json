@@ -4,9 +4,86 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-        
-
+        {
+            "name": "(macOS) Debug Current File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "CMake: Build Current File (macOS)",
+            "osx": {
+                "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "(Windows) Debug Current File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake: Build Current File (Windows)",
+            "windows": {
+                "program": "${workspaceFolder}/cmake-build-debug/Debug/${fileBasenameNoExtension}.exe",
+                "miDebuggerPath": "gdb.exe"
+            }
+        },
+        {
+            "name": "(Cross-Platform) Debug with CMake",
+            "type": "cmake",
+            "request": "launch",
+            "cmakeDebugType": "default"
+        },
+        {
+            "name": "(macOS) Debug Leetcode_75 File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Leetcode_75/output/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "CMake: Build All"
+        },
+        {
+            "name": "(Windows) Debug Leetcode_75 File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Leetcode_75/output/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake: Build All"
+        }
     ]
 }

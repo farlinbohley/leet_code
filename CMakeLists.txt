@@ -3,9 +3,22 @@ project(leet_code)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# Set debug flags for different platforms
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+    if(MSVC)
+        set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /Zi /Od")
+    else()
+        set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -O0")
+    endif()
+endif()
+
 # Set the output directory for executables
 # Place executables in the output folder under Leetcode_75
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Leetcode_75/output)
+
+# For multi-configuration generators (like Visual Studio on Windows)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 
 # Option 2: Put executables in project root
 # set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
@@ -18,6 +31,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/Leetcode_75/output)
 
 # Also set CMAKE_EXPORT_COMPILE_COMMANDS to generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Windows-specific settings
+if(WIN32)
+    # Set Windows subsystem to console for all executables
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:CONSOLE")
+endif()
 
 # Find all .cpp files in Leetcode_75 directory
 file(GLOB CPP_FILES "Leetcode_75/*.cpp")

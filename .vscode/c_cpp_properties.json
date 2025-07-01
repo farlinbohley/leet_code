@@ -3,28 +3,52 @@
         {
             "name": "Mac",
             "includePath": [
-                "/Users/Chris/leet_code/**",
-                "/Users/Chris/leet_code"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}"
             ],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
             "compilerPath": "/usr/bin/clang++",
-            "cStandard": "c23",
-            "cppStandard": "c++23",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
             "intelliSenseMode": "macos-clang-arm64",
-            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
-            "configurationProviderInCppPropertiesJson": "ms-vscode.cmake-tools",
-            "mergeConfigurations": false,
             "configurationProvider": "ms-vscode.cmake-tools",
-            "browse": {
-                "path": [
-                    "/Users/Chris/leet_code/**",
-                    "/Users/Chris/leet_code"
-                ],
-                "limitSymbolsToIncludedHeaders": true
-            }
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
         }
     ],
     "version": 4
