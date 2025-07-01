@@ -35,7 +35,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -70,7 +71,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -81,6 +83,13 @@
 					"id" : "01_two_sums::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_two_sums-Debug-783d34a3102d7744dd2d.json",
 					"name" : "01_two_sums",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "asteroidCollision::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-asteroidCollision-Debug-f1e8a63735055f21fc34.json",
+					"name" : "asteroidCollision",
 					"projectIndex" : 0
 				},
 				{

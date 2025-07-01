@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named asteroidCollision
+
+# Build rule for target.
+asteroidCollision: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asteroidCollision
+.PHONY : asteroidCollision
+
+# fast build rule for target.
+asteroidCollision/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asteroidCollision.dir/build.make CMakeFiles/asteroidCollision.dir/build
+.PHONY : asteroidCollision/fast
+
+#=============================================================================
 # Target rules for targets named closeStrings
 
 # Build rule for target.
@@ -388,6 +401,30 @@ uniqueOccurrences/fast:
 01_two_sums/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_two_sums.dir/build.make CMakeFiles/01_two_sums.dir/build
 .PHONY : 01_two_sums/fast
+
+Leetcode_75/asteroidCollision.o: Leetcode_75/asteroidCollision.cpp.o
+.PHONY : Leetcode_75/asteroidCollision.o
+
+# target to build an object file
+Leetcode_75/asteroidCollision.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asteroidCollision.dir/build.make CMakeFiles/asteroidCollision.dir/Leetcode_75/asteroidCollision.cpp.o
+.PHONY : Leetcode_75/asteroidCollision.cpp.o
+
+Leetcode_75/asteroidCollision.i: Leetcode_75/asteroidCollision.cpp.i
+.PHONY : Leetcode_75/asteroidCollision.i
+
+# target to preprocess a source file
+Leetcode_75/asteroidCollision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asteroidCollision.dir/build.make CMakeFiles/asteroidCollision.dir/Leetcode_75/asteroidCollision.cpp.i
+.PHONY : Leetcode_75/asteroidCollision.cpp.i
+
+Leetcode_75/asteroidCollision.s: Leetcode_75/asteroidCollision.cpp.s
+.PHONY : Leetcode_75/asteroidCollision.s
+
+# target to generate assembly for a file
+Leetcode_75/asteroidCollision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asteroidCollision.dir/build.make CMakeFiles/asteroidCollision.dir/Leetcode_75/asteroidCollision.cpp.s
+.PHONY : Leetcode_75/asteroidCollision.cpp.s
 
 Leetcode_75/closeStrings.o: Leetcode_75/closeStrings.cpp.o
 .PHONY : Leetcode_75/closeStrings.o
@@ -902,6 +939,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 01_two_sums"
+	@echo "... asteroidCollision"
 	@echo "... closeStrings"
 	@echo "... compress"
 	@echo "... equalPairs"
@@ -922,6 +960,9 @@ help:
 	@echo "... pivotIndex_0_n_2_"
 	@echo "... removeStars"
 	@echo "... uniqueOccurrences"
+	@echo "... Leetcode_75/asteroidCollision.o"
+	@echo "... Leetcode_75/asteroidCollision.i"
+	@echo "... Leetcode_75/asteroidCollision.s"
 	@echo "... Leetcode_75/closeStrings.o"
 	@echo "... Leetcode_75/closeStrings.i"
 	@echo "... Leetcode_75/closeStrings.s"

@@ -1,6 +1,12 @@
 [
 {
   "directory": "/Users/Chris/leet_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/asteroidCollision.dir/Leetcode_75/asteroidCollision.cpp.o -c /Users/Chris/leet_code/Leetcode_75/asteroidCollision.cpp",
+  "file": "/Users/Chris/leet_code/Leetcode_75/asteroidCollision.cpp",
+  "output": "CMakeFiles/asteroidCollision.dir/Leetcode_75/asteroidCollision.cpp.o"
+},
+{
+  "directory": "/Users/Chris/leet_code/build",
   "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.o -c /Users/Chris/leet_code/Leetcode_75/closeStrings.cpp",
   "file": "/Users/Chris/leet_code/Leetcode_75/closeStrings.cpp",
   "output": "CMakeFiles/closeStrings.dir/Leetcode_75/closeStrings.cpp.o"

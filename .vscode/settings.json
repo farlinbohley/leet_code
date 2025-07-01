@@ -26,5 +26,16 @@
         "vector": "cpp",
         "memory": "cpp",
         "algorithm": "cpp"
+    },
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.2,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "C_Cpp.clang_format_style": "Google",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
     }
 }

@@ -1,3 +1,4 @@
+/Users/Chris/leet_code/build/CMakeFiles/asteroidCollision.dir
 /Users/Chris/leet_code/build/CMakeFiles/closeStrings.dir
 /Users/Chris/leet_code/build/CMakeFiles/compress.dir
 /Users/Chris/leet_code/build/CMakeFiles/equalPairs.dir
